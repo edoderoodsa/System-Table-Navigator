@@ -15,6 +15,20 @@
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "ForceSync",
             "dependencyPublishingOption": "Ignore"
+        },                {
+            "type": "al",
+            "request": "launch",
+            "name": "DSA-local-DOCKER",
+            "server": "http://BC22-0-W1dgsprj",
+            "port": 7049,
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "tenant": "default",
+            "schemaUpdateMode": "ForceSync",
+            "launchBrowser": true
         }
     ]
 }
